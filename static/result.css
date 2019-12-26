@@ -1,0 +1,18 @@
+#logo{
+	width:90%;
+	border: 10px ridge gray;
+	margin: 0 auto;
+	border: double 10px black;
+		border-radius: 10px;
+}
+#status{
+	display: block;
+	margin: 0 auto;
+}
+
+#converted{
+	border: double 10px black;
+	display: block;
+	margin: 7% auto;
+		border-radius: 10px;
+}

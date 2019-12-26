@@ -1,12 +1,20 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
 		<meta charset='utf-8'>
 		<title>Unknown converter</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
 	</head>
 	<body>
-		<h5>Unknown Converter</h5>
-		<form action="/unknown/result/" method="POST">
-			<input type="text" name="TEXT">
-		</form>
+		<div id="logo">
+			<img src="https://imgur.com/HmbPfjC.png" alt="">
+			<img src="https://imgur.com/NNb2maX.png" alt="">
+		</div>
+		<div id="input">
+			<form action="/unknown/result/" method="POST">
+				<input type="text" name="TEXT">
+			</form>
+		</div>
+
 	</body>
 </html>

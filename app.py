@@ -22,14 +22,16 @@ def result():
 
 	#記号・数字などがkeyerrorの例外となるので例外処理。
 	try:
+		if text == "":
+			raise ValueError("error!")
 		unknown_image = unknown_converter.convert(text)
 	except:
-		return "例外発生。"
+		return render_template("result.html", original_text=text, path="https://imgur.com/wAaOKOv.png", status="https://imgur.com/PTaIr4h.png")
 
 	save_path = "./result/converted.png"
 	unknown_image.save(save_path)
 	imgur_path = imgurClient.upload_from_path(save_path,config=None,anon=None)['link']
-	return render_template("result.html",original_text=text,path=imgur_path)
+	return render_template("result.html", original_text=text, path=imgur_path, status="https://imgur.com/lxvUwyS.png")
 
 if __name__=="__main__":
 	app.run()
