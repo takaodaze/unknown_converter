@@ -1,6 +1,5 @@
 #logo{
 	width:90%;
-	border: 10px ridge gray;
 	margin: 0 auto;
 	border: double 10px black;
 	border-radius: 10px;
@@ -11,10 +10,16 @@
 	width:80%;
 }
 
-#converted{
+#output{
+	display: block;
+	margin:0 auto;
+	width:90%;
 	border: double 10px black;
+	border-radius: 10px;
+}
+
+#converted{
 	display: block;
 	margin: 7% auto;
-	border-radius: 10px;
-	width:80%;
+	width:90%;
 }
