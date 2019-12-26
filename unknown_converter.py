@@ -55,7 +55,9 @@ u_table = {
     'z': "./static/material/unknown_Z.jpg",
     'Z': "./static/material/unknown_Z.jpg",
     '!': "./static/material/unknown_!.jpg",
+    '！': "./static/material/unknown_!.jpg",
     '?': "./static/material/unknown_?.jpg",
+    '？': "./static/material/unknown_?.jpg",
     ' ': "./static/material/space.jpg",
     '　': "./static/material/space.jpg"
 }
