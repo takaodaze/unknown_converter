@@ -8,12 +8,13 @@ imgurClient = ImgurClient(CLIENT_ID, CLIENT_SERCRET)
 
 
 app = Flask(__name__)
+
 @app.route('/unknown/converter')
 def index():
 	return render_template("index.html")
 @app.route('/')
-def index():
-	return render_template("index.html")
+def hello():
+	return "ちゃんと動いてるよ！"
 
 @app.route('/unknown/result/',methods=['POST'])
 def result():
