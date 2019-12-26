@@ -12,7 +12,7 @@
 
 #output{
 	display: block;
-	margin:0 auto;
+	margin:5% auto;
 	width:90%;
 	border: double 10px black;
 	border-radius: 10px;
@@ -20,6 +20,6 @@
 
 #converted{
 	display: block;
-	margin: 7% auto;
+	margin: 0px auto;
 	width:90%;
 }
