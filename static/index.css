@@ -26,6 +26,12 @@ input{
 
 }
 
+input::placeholder {
+  color: #dcdcdc;
+  font-size: 100%;
+
+}
+
 input[type="text"]:focus {
   outline: 0;
 }
