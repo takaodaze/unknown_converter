@@ -8,7 +8,7 @@ gunicorn==20.0.4
 idna==2.8
 imgurpython==1.1.7
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 klepto==0.1.8
 MarkupSafe==1.1.1
 Pillow==6.2.1
